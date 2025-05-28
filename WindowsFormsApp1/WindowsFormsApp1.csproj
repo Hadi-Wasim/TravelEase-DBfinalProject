@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Azure.Core, Version=1.38.0.0, Culture=neutral, PublicKeyToken=92742159e12e44c8, processorArchitecture=MSIL">
+      <HintPath>..\packages\Azure.Core.1.38.0\lib\net472\Azure.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Azure.Identity, Version=1.11.4.0, Culture=neutral, PublicKeyToken=92742159e12e44c8, processorArchitecture=MSIL">
+      <HintPath>..\packages\Azure.Identity.1.11.4\lib\netstandard2.0\Azure.Identity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.Cryptography, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Cryptography.8.0.0\lib\net462\Microsoft.Bcl.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.SqlClient, Version=6.0.0.0, Culture=neutral, PublicKeyToken=23ec7fc2d6eaa4a5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Data.SqlClient.6.0.2\lib\net462\Microsoft.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Caching.Abstractions.8.0.0\lib\net462\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Memory, Version=8.0.0.1, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Caching.Memory.8.0.1\lib\net462\Microsoft.Extensions.Caching.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.2\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.8.0.2\lib\net462\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Options.8.0.2\lib\net462\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.8.0.0\lib\net462\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Identity.Client, Version=4.61.3.0, Culture=neutral, PublicKeyToken=0a613f4dd989e8ae, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Identity.Client.4.61.3\lib\net462\Microsoft.Identity.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Identity.Client.Extensions.Msal, Version=4.61.3.0, Culture=neutral, PublicKeyToken=0a613f4dd989e8ae, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Identity.Client.Extensions.Msal.4.61.3\lib\netstandard2.0\Microsoft.Identity.Client.Extensions.Msal.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Abstractions, Version=7.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Abstractions.7.5.0\lib\net472\Microsoft.IdentityModel.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.JsonWebTokens, Version=7.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.JsonWebTokens.7.5.0\lib\net472\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=7.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Logging.7.5.0\lib\net472\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocols, Version=7.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Protocols.7.5.0\lib\net472\Microsoft.IdentityModel.Protocols.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect, Version=7.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Protocols.OpenIdConnect.7.5.0\lib\net472\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=7.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Tokens.7.5.0\lib\net472\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ClientModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=92742159e12e44c8, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ClientModel.1.0.0\lib\netstandard2.0\System.ClientModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=7.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.7.5.0\lib\net472\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.AccessControl, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.AccessControl.5.0.0\lib\net461\System.IO.FileSystem.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory.Data, Version=1.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.Data.1.0.2\lib\net461\System.Memory.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.5.0.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Pkcs, Version=8.0.0.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Pkcs.8.0.1\lib\net462\System.Security.Cryptography.Pkcs.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.ProtectedData, Version=4.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.ProtectedData.4.7.0\lib\net461\System.Security.Cryptography.ProtectedData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.6.0.0\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=6.0.0.10, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.6.0.10\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adminSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminSignUp.Designer.cs">
+      <DependentUpon>adminSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_main.Designer.cs">
+      <DependentUpon>Admin_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bookingManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bookingManagement.Designer.cs">
+      <DependentUpon>bookingManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="booking_details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="booking_details.Designer.cs">
+      <DependentUpon>booking_details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard_provider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard_provider.Designer.cs">
+      <DependentUpon>Dashboard_provider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="digitalTravel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="digitalTravel.Designer.cs">
+      <DependentUpon>digitalTravel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="analy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="analy.Designer.cs">
+      <DependentUpon>analy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\AddTrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\AddTrip.Designer.cs">
+      <DependentUpon>AddTrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\analytics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\analytics.Designer.cs">
+      <DependentUpon>analytics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\AssignServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\AssignServices.Designer.cs">
+      <DependentUpon>AssignServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\edittripForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\edittripForm.Designer.cs">
+      <DependentUpon>edittripForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\manageBookings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\manageBookings.Designer.cs">
+      <DependentUpon>manageBookings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\manageTrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\manageTrip.Designer.cs">
+      <DependentUpon>manageTrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\manageUpdateTrips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\manageUpdateTrips.Designer.cs">
+      <DependentUpon>manageUpdateTrips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\OperatorHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\OperatorHome.Designer.cs">
+      <DependentUpon>OperatorHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\operatorSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\operatorSignUp.Designer.cs">
+      <DependentUpon>operatorSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\tour_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\tour_management.Designer.cs">
+      <DependentUpon>tour_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\registration.Designer.cs">
+      <DependentUpon>registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Reviews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Reviews.Designer.cs">
+      <DependentUpon>Reviews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\viewEditTrips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\viewEditTrips.Designer.cs">
+      <DependentUpon>viewEditTrips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="performance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="performance.Designer.cs">
+      <DependentUpon>performance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="preferences.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="preferences.Designer.cs">
+      <DependentUpon>preferences.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="providerSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="providerSignUp.Designer.cs">
+      <DependentUpon>providerSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reservation.Designer.cs">
+      <DependentUpon>reservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="review.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="review.Designer.cs">
+      <DependentUpon>review.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewTile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReviewTile.Designer.cs">
+      <DependentUpon>ReviewTile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewTileHadi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReviewTileHadi.Designer.cs">
+      <DependentUpon>ReviewTileHadi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="service_integration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="service_integration.Designer.cs">
+      <DependentUpon>service_integration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="service_listing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="service_listing.Designer.cs">
+      <DependentUpon>service_listing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="service_listing2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="service_listing2.Designer.cs">
+      <DependentUpon>service_listing2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="traveleaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>traveleaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="travellerPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="travellerPayment.Designer.cs">
+      <DependentUpon>travellerPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="travellerSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="travellerSignUp.Designer.cs">
+      <DependentUpon>travellerSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripSearch.Designer.cs">
+      <DependentUpon>TripSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripTile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TripTile.Designer.cs">
+      <DependentUpon>TripTile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripTileHadi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TripTileHadi.Designer.cs">
+      <DependentUpon>TripTileHadi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripTileDetailed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TripTileDetailed.Designer.cs">
+      <DependentUpon>TripTileDetailed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpcomingTripTile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UpcomingTripTile.Designer.cs">
+      <DependentUpon>UpcomingTripTile.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="adminSignUp.resx">
+      <DependentUpon>adminSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_main.resx">
+      <DependentUpon>Admin_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="analy.resx">
+      <DependentUpon>analy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bookingManagement.resx">
+      <DependentUpon>bookingManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="booking_details.resx">
+      <DependentUpon>booking_details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard_provider.resx">
+      <DependentUpon>Dashboard_provider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="digitalTravel.resx">
+      <DependentUpon>digitalTravel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\AddTrip.resx">
+      <DependentUpon>AddTrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\analytics.resx">
+      <DependentUpon>analytics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\AssignServices.resx">
+      <DependentUpon>AssignServices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\edittripForm.resx">
+      <DependentUpon>edittripForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\manageBookings.resx">
+      <DependentUpon>manageBookings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\manageTrip.resx">
+      <DependentUpon>manageTrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\manageUpdateTrips.resx">
+      <DependentUpon>manageUpdateTrips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\OperatorHome.resx">
+      <DependentUpon>OperatorHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\operatorSignUp.resx">
+      <DependentUpon>operatorSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\tour_management.resx">
+      <DependentUpon>tour_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\registration.resx">
+      <DependentUpon>registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Reviews.resx">
+      <DependentUpon>Reviews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\viewEditTrips.resx">
+      <DependentUpon>viewEditTrips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="performance.resx">
+      <DependentUpon>performance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="preferences.resx">
+      <DependentUpon>preferences.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="providerSignUp.resx">
+      <DependentUpon>providerSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reservation.resx">
+      <DependentUpon>reservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="review.resx">
+      <DependentUpon>review.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReviewTile.resx">
+      <DependentUpon>ReviewTile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReviewTileHadi.resx">
+      <DependentUpon>ReviewTileHadi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="service_integration.resx">
+      <DependentUpon>service_integration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="service_listing.resx">
+      <DependentUpon>service_listing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="service_listing2.resx">
+      <DependentUpon>service_listing2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="travellerPayment.resx">
+      <DependentUpon>travellerPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="travellerSignUp.resx">
+      <DependentUpon>travellerSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripSearch.resx">
+      <DependentUpon>TripSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripTile.resx">
+      <DependentUpon>TripTile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripTileHadi.resx">
+      <DependentUpon>TripTileHadi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripTileDetailed.resx">
+      <DependentUpon>TripTileDetailed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpcomingTripTile.resx">
+      <DependentUpon>UpcomingTripTile.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="traveleaseDataSet.xsc">
+      <DependentUpon>traveleaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="traveleaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>traveleaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="traveleaseDataSet.xss">
+      <DependentUpon>traveleaseDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aerplane.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aerplane1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aeroplane2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aerplane2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-04-26 195448.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back6.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-04-28 090821.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-04-28 190448.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transparency_1076744.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\approval_1721931.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analysis_15598650.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-04-28 192521.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trip_details.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\details.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\landscape1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\landscape2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\landscape3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back7.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back66.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back77.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow5.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow4.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow9.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets'))" />
+  </Target>
+</Project>

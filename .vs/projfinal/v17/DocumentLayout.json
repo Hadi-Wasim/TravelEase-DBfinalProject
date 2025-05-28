@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\sabri laptop\\downloads\\proj\\g-23f-0681_g_23i-0575_g_23i-0540\\windowsformsapp1\\windowsformsapp1\\bookingmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\bookingmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\windowsformsapp1\\service_listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\service_listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\windowsformsapp1\\service_listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\service_listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\windowsformsapp1\\dashboard_provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\dashboard_provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\windowsformsapp1\\dashboard_provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\dashboard_provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\windowsformsapp1\\service_integration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\service_integration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\windowsformsapp1\\service_integration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\service_integration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\windowsformsapp1\\performance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\performance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\windowsformsapp1\\performance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\performance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\windowsformsapp1\\bookingmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\bookingmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\windowsformsapp1\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\windowsformsapp1\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\windowsformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\windowsformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\windowsformsapp1\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\windowsformsapp1\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F09C0A8F-41E4-4D5E-AE99-EC4369C4D075}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "service_listing.cs",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\service_listing.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\service_listing.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\service_listing.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\service_listing.cs",
+              "ViewState": "AgIAAD0BAAAAAAAAAAAAwEUBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:28:26.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "service_listing.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\service_listing.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\service_listing.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\service_listing.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\service_listing.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:28:24.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "service_integration.cs",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\service_integration.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\service_integration.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\service_integration.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\service_integration.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAUwMMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:28:01.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "service_integration.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\service_integration.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\service_integration.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\service_integration.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\service_integration.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:27:58.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard_provider.cs",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\Dashboard_provider.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Dashboard_provider.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\Dashboard_provider.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Dashboard_provider.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:26:57.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard_provider.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\Dashboard_provider.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Dashboard_provider.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\Dashboard_provider.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Dashboard_provider.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:26:55.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bookingManagement.cs",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\bookingManagement.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\bookingManagement.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\bookingManagement.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\bookingManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:26:50.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "bookingManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\bookingManagement.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\bookingManagement.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\bookingManagement.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\bookingManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:26:34.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "performance.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\performance.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\performance.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\performance.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\performance.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:59:30.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "performance.cs",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\performance.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\performance.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\performance.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\performance.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:59:28.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "review.cs",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\review.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\review.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\review.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\review.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAIwMgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:42:48.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "review.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\review.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\review.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\review.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\review.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:42:47.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\Dashboard.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\Dashboard.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Dashboard.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:38:23.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\Dashboard.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\Dashboard.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:38:17.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\login.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\login.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\login.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\login.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwEEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:36:35.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\login.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\login.cs",
+              "ToolTip": "C:\\Users\\SABRI LAPTOP\\Downloads\\proj\\G-23F-0681_G_23I-0575_G_23I-0540\\WindowsFormsApp1\\WindowsFormsApp1\\login.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:36:32.766Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
